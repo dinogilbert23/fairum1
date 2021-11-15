@@ -1,0 +1,14 @@
+<div class="row pagemargin">
+    <div class="col-md-6" *ngFor="let data of tokenUtility" style="padding: 1.5rem;">
+        <div class="card">
+            <div class="row">
+                <div class="col-md-2 d-flex justify-content-center" style="margin-top: 10%;"><i
+                        class="fa fa-usd usericon"></i></div>
+                <div class="col-md-10">
+                    <div class="tokenhead">{{data.header}}</div>
+                    <div>{{data.value}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
